@@ -1,0 +1,11 @@
+n = int(input("Enter how many numbers: "))
+total = 0
+
+for i in range(1, n + 1):
+    num = float(input("Enter number: "))
+    total += num
+
+average = total / n
+
+print("Sum =", total)
+print("Average =", average)
